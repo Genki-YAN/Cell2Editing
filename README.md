@@ -12,7 +12,7 @@ A novel method for RNA edting investigation using scRNA-seq
 	Download Split_bacorde_v2.pl, duplicate.v2.py, Cell2editing.sh.
 	According to the tutorial of RED-ML download appropriate reference genome, dbSNP138,  simpleRepeat and Alu.
 	
-	run Cell2editing.sh
+	sh Cell2editing.sh ProB.primary.sort.bam PB48h_3_ProB_barcode.list CB:Z: ProB 01.RNA_editing genome.fasta All_20180418.GRCh38p7.vcf.gz simpleRepeat.merge.bed hg38.alu.bed Split_bacorde_v2.pl duplicate.v2.py
 	
 	Argument	Summary
 	1	The file path of bam
