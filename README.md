@@ -1,6 +1,9 @@
 # Cell2Editing
 A novel method for RNA edting investigation using scRNA-seq
 	This is a tutorial about using scRNA-seq to detect RNA editing events of different cell types. By integrating the aligned reads of cells in the same cell type, we can obtain a pseudo Bulk RNA-seq. And then we used RED-ML to detect RNA editing sites in pseudo Bulk RNA-seq data of different cell types.
+	Before running the program it is recommended to use samtools to split the reads aligned to the forward and aligned to the reserve strand.
+	samtools view -b -f 16
+	samtools view -b -F 16
 	• Software installed
 	Firstly, we need install several software and add those to your PATH environment variable after installing them.
 	Samtools (https://github.com/samtools/samtools/releases/)
